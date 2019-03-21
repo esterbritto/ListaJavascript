@@ -1,0 +1,27 @@
+<html>
+<head>
+<html>
+<title>Questao 5</title>
+</head>
+<body>
+<form action="action.php" method="post"> 
+  <p>Nome de Usuário: <input type="text" id="inputNome" name="nome" size="20" maxlength="16" required='true'/></p> 
+  <p>Senha: <input type="password" name="senha" id="inputSenha" size="20" maxlength="16" required='true'/></p> 
+  <p>Confirmar senha: <input type="password" name="senha2" id="inputSenha2" size="20" maxlength="16" required='true'/></p> 
+  <p><input type="submit" id="inputSubmit"/></p> 
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+  $(function(){
+	$("#inputSubmit").click(function(){
+      var senha = $("#inputSenha").val();
+      var senha2 = $("#inputSenha2").val();
+      if(senha != senha2){
+        event.preventDefault();
+      	alert("Senha Inválida!");
+      }
+    });
+  });
+</script>
+</bory>
+</html>

@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Questao 4</title>
+        <meta charset="utf-8" />    
+        <script type="text/javascript">
+var inicializador;
+
+function ocultar(){
+  if (inicializador == true) {
+    document.getElementById("texto").style.display = "block";
+    inicializador = false;
+  } else{
+    document.getElementById("texto").style.display = "none";
+    inicializador = true;
+  }
+}
+    </script>
+    </head>
+    <body>
+      <div id="texto">
+        Vamos ocultar a frase!
+      </div>
+      <button class="btn" onclick="ocultar();">Exibir</button>
+  </body>
+</html>
