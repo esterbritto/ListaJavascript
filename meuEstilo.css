@@ -1,0 +1,139 @@
+body  {  	
+	margin: 0;  	
+	padding: 0;  	
+	background: #ddd;  
+	}    
+#container  {  	
+	margin: 1em auto;  	
+	width: 650px;  	
+	background: #fff;  
+	}    
+#header {background: #CF3;}  
+#mainnav {background: #9F3; }    
+#menu  {  	
+	float: right;  	
+	width: 165px;  	
+	background: #6F9;  
+	}    
+#contents  {  	
+	float: left;  	
+	width: 440px;  	
+	background: #9FC;  	
+	margin: 0 0 0 20px;  
+	}    
+#footer  {  	
+	clear: both;  	
+	background: #FF9;  
+	}  
+	position: absolute;
+	left: -500em;
+	}
+
+#skipmenu {
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 645px;
+	text-align: right;
+	}
+
+#skipmenu a {
+	color: #555;
+	text-decoration: none;
+	}
+
+/* mainnav styles */
+
+#mainnav {
+	background: #9FA41D;
+	color: #272900;
+	padding: 2px 0;
+	margin-bottom: 22px;
+	}
+
+#mainnav ul {
+	margin: 0 0 0 20px;
+	padding: 0;
+	list-style-type: none;
+	border-left: 1px solid #C4C769;
+	}
+
+#mainnav li {
+	display: inline;
+	padding: 0 10px;
+	border-right: 1px solid #C4C769;
+	}
+
+#mainnav li a {
+	text-decoration: none;
+	color: #272900;
+	}
+
+#mainnav li a:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #272900;
+	}
+
+/* menu styles */
+
+#menu {
+	float: right;
+	width: 165px;
+	border-left: 1px solid #C5C877;
+	padding-left: 15px;
+	}
+
+#menu ul {
+	margin: 1em 0;
+	padding: 0;
+	}
+
+#menu ul li {
+	margin: 0 0 1em;
+	padding: 0;
+	list-style-type: none;
+	}
+
+/* contents styles */
+
+#contents {
+	float: left;
+	width: 430px;
+	margin: 0 0 0 20px;
+	}
+
+#contents p { line-height: 165%; }
+.blogentry { border-bottom: 1px solid #C5C877; }
+
+.blogentry ul {
+	text-align: right;
+	margin: 1em 0;
+	padding: 0;
+	font-size: 95%;
+	}
+
+.blogentry li {
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding: 0 0 0 7px;
+		}
+
+.imagefloat {
+	float: right;
+	padding: 2px;
+	border: 1px solid #9FA41D;
+	margin: 0 0 10px 10px;
+	}
+
+/* footer styles */
+
+#footer {
+	clear: both;
+	color: #272900;
+	text-align: right;
+	font-size: 90%;
+	background: #9FA41D;
+	padding: 5px;
+	}
